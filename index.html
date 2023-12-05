@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e941fbb6d1.js" crossorigin="anonymous"></script>
+    <title>Homework03 shopping-cart page</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./Pics/jobpasscard-logo-nav.png" alt="logo">
+        </div>
+        <nav>
+            <a href="#">ABOUT US</a>
+            <a href="#">PASSCARD</a>
+            <a href="#">PROFILE</a>
+        </nav>
+        <div class="service">
+            <form action="" class="search_box">
+                <input type="text" name="search" placeholder="&#xf002;">
+            </form>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <a href="#">LOGIN</a>
+            <a href="#">SIGN UP</a>
+        </div>
+    </header>
+
+    <main>
+        <h1>My Cart</h1>
+        <div class="detail">
+            <div class="product">
+                <div class="container">
+                    <button class="delete_button">
+                        <img src="./Pics/trash-bin.png" alt="delete">
+                    </button >
+                    <img src="./Pics/google_Doc.png" alt="Doc">
+                    <div class="product_detail">
+                        <h3>Google Docs</h3>
+                        <div class="lvscale">
+                            <div class="bar1">
+                                <i class="fa-solid fa-circle" title="0"></i>
+                                <i class="fa-solid fa-circle" title="01"></i>
+                                <i class="fa-solid fa-circle" title="012"></i>  
+                            </div>
+                            <select class="selectlv" name="productlv">
+                                <option value="1" class="lv">LV 1-3</option>
+                                <option value="2" class="lv" selected>LV 2-3</option>
+                                <option value="3" class="lv">LV 3-3</option>
+                            </select>
+                        </div>
+                        <p>THB 150</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <button class="delete_button">
+                        <img src="./Pics/trash-bin.png" alt="delete">
+                    </button >
+                    <img src="./Pics/google_slide.png" alt="Slide">
+                    <div class="product_detail">
+                        <h3>Google Slides</h3>
+                        <div class="lvscale">
+                            <div class="bar2">
+                                <i class="fa-solid fa-circle" title="0"></i>
+                                <i class="fa-solid fa-circle" title="01"></i>
+                                <i class="fa-solid fa-circle" title="012"></i>  
+                                <i class="fa-solid fa-circle" title="0123"></i>  
+                            </div>
+                            <select class="selectlv" name="productlv">
+                                <option value="1" class="lv">LV 1-4</option>
+                                <option value="2" class="lv">LV 2-4</option>
+                                <option value="3" class="lv" selected>LV 3-4</option>
+                                <option value="4" class="lv">LV 4-4</option>
+                            </select>
+                        </div>
+                        <p>THB 150</p>
+                    </div>
+                </div>
+            </div>
+            <div class="order">
+                <h3>Order info</h3>
+                <div class="sub">
+                    <p>Subtotal</p>
+                    <p>THB 300</p>
+                </div>
+                <div class="promo">
+                    <i class="fa-solid fa-ticket"></i>
+                    <form action="">
+                        <input type="text" name="promocode" placeholder="Promotion code">
+                    </form>
+                    <button><strong>APPLY</strong></button>
+                </div>
+                <hr>
+                <div class="total">
+                    <p>Total payment</p>
+                    <h1>THB 300</h1>
+                </div>
+                <button>LOG IN TO CHECKOUT</button>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
